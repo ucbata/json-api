@@ -1,0 +1,13 @@
+{
+  "Calendar": {
+    "id": { "int": { "min": 1, "max": 10000 } },
+    "title": { "string": {} },
+    "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
+    "date": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
+}
