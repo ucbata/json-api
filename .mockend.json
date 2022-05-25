@@ -1,8 +1,17 @@
 {
   "Calendar": {
-    "id": { "int": { "min": 1, "max": 10000 } },
-    "title": { "string": {} },
-    "body": { "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
+    "id": {
+      "int": { "min": 1, "max": 10000 }
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 10
+      }
+    },
+    "body": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
     "date": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
